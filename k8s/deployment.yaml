@@ -24,6 +24,6 @@ spec:
       serviceAccountName: myapp-sa
       containers:
       - name: app
-        image: myapp:v1
+        image: pratik6958/myapp:v1
         ports:
         - containerPort: 8000
